@@ -2,18 +2,34 @@
     font-family: sans-serif;
 }
 
+/* Type selektor */
 p {
     font-size: 16px;
 }
 
+/* Pseudo klasse */
 article:first-child {
     background-color: beige;
 }
 
+/* ID selektor */
 #midt-artikkel {
     background-color: antiquewhite;
 }
 
+/* Klasse selektor */
 .siste-artikkel {
     background-color: bisque
+}
+
+/* Atributt selektor */
+input[type=password] {
+    border: 2px red solid;
+    border-radius: 8px;
+}
+
+.bigger-font {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
 }
